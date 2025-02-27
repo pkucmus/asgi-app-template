@@ -13,4 +13,6 @@ To run this:
 docker compose up -d db
 export DATABASE_DSN="postgresql+asyncpg://user:password@localhost:6666/db"
 uv run python src/apat/api/main.py
+
+uv run pytest tests
 ```
